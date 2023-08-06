@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const API_ENDPOINT = 'https://api.openai.com/v1/engines/text-davinci-003/completions'; // Replace with the appropriate API endpoint
-const API_KEY = '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'; // Replace with your GPT-3.5 API key
+const API_KEY = ''; // Replace with your GPT-3.5 API key
 
 async function generateText(prompt) {
   try {
